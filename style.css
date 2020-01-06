@@ -76,7 +76,8 @@ nav a:hover {
 transform: scale(1.2);
 }
 .aboutme {
-    width: 700px;
+    min-width: 400px;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -90,10 +91,21 @@ transform: scale(1.2);
     width: 50%;
     max-width: 440px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin: 200px;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
 }
 .flex-container {
     display: flex;
+}
+@media only screen and (max-width: 700px) {
+    .flex-container {
+        width: 100%;
+        flex-direction: column;
+    }
+    .intro {
+        margin-top: auto;
+    }
 }
