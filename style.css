@@ -215,6 +215,11 @@ h2 {
     border: 2px solid #119a89;
     color:white;
 } 
+.video {
+    align-items: center;
+    margin: auto;
+    display: block;
+}
 .footer {
     display: block;
     padding: 50px;
