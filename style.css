@@ -75,19 +75,21 @@ nav a:hover {
 .logo:hover {
 transform: scale(1.2);
 }
-.aboutme {
+.images {
     min-width: 400px;
+    max-width: 700px;
     width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 70px;
+    margin-top: 10px;
 }
 .intro {
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-size: 20px;
     color: white;
-    line-height: 40px;
     width: 50%;
     max-width: 440px;
     display: flex;
@@ -95,7 +97,7 @@ transform: scale(1.2);
     flex-direction: column;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 200px;
+    margin-top: 10vw;
 }
 .flex-container {
     display: flex;
@@ -107,5 +109,77 @@ transform: scale(1.2);
     }
     .intro {
         margin-top: auto;
+        font-size: 12px;
+        
     }
+}
+.buttonweb {
+    display: inline-block;
+    background-color: #49384a;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #49384a;
+    border-radius: 12px;
+    user-select: none;
+}
+.buttonweb:hover {
+    background-color: #119a89;
+    border: 2px solid #119a89;
+    color:white;
+}
+.buttonux {
+    display: inline-block;
+    background-color: #da565c;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 40px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #da565c;
+    border-radius: 12px;
+    user-select: none;
+}  
+.buttonux:hover {
+    background-color: #119a89;
+    border: 2px solid #119a89;
+    color:white;
+} 
+.footer {
+    display: block;
+    padding: 30px;
+}
+.footer a { display: inline-block; transition: all .3s;}
+.footer a:hover {
+    transform: translateY(-10px);
+}
+.about {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 50%;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10vw; 
 }
