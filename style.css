@@ -86,12 +86,15 @@ transform: scale(1.2);
     font-size: 20px;
     color: white;
     width: 50%;
-    max-width: 440px;
+    max-width: 600px;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-left: 50px;
     margin-right: 50px;
+}
+h3 {
+    font-size: 40px;
 }
 .nadpis {
     text-align: center;
@@ -124,9 +127,7 @@ transform: scale(1.2);
     margin: auto;
     
 }
-.rotate {
-    transform: rotate(180deg);
-}
+
 .adela {
     max-width: 400px;
     justify-content: center;
@@ -154,7 +155,7 @@ transform: scale(1.2);
         flex-direction: column;
     }
     .intro {
-        font-size: 12px;
+        font-size: 18px;
         width: 90%;
     }
     .text {
