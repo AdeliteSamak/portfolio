@@ -2,7 +2,6 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
-    margin: 0;
     padding: 0;
 }
 body {
@@ -113,7 +112,20 @@ transform: scale(1.2);
     color: white;
     font-weight: lighter;
     width: 50%;
+}
+.textabout {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    max-width: 600px;
     
+}
+.adela {
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
 }
 .flex-container {
     display: flex;
