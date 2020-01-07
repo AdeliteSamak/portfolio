@@ -168,9 +168,7 @@ h3 {
 h2 { 
     font-weight: lighter; }
 .buttonweb {
-    display: inline-block;
     background-color: #49384a;
-    border: none;
     color: white;
     padding: 16px 24px;
     text-align: center;
@@ -192,9 +190,7 @@ h2 {
     color:white;
 }
 .buttonux {
-    display: inline-block;
     background-color: #da565c;
-    border: none;
     color: white;
     padding: 16px 24px;
     text-align: center;
