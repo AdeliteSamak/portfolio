@@ -113,6 +113,8 @@ transform: scale(1.2);
         
     }
 }
+h2 { 
+    font-weight: lighter; }
 .buttonweb {
     display: inline-block;
     background-color: #49384a;
