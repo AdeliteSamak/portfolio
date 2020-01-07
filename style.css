@@ -106,12 +106,13 @@ transform: scale(1.2);
     color: white;  
 }
 .text {
-    text-align: center;
+    text-align: justify;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     color: white;
     font-weight: lighter;
     width: 50%;
+    margin: auto;
 }
 .textabout {
     text-align: center;
@@ -119,13 +120,24 @@ transform: scale(1.2);
     font-size: 18px;
     color: white;
     font-weight: lighter;
-    max-width: 600px;
+    max-width: 700px;
+    margin: auto;
     
 }
+.rotate {
+    transform: rotate(180deg);
+}
 .adela {
-    max-width: 600px;
+    max-width: 400px;
     justify-content: center;
     align-items: center;
+    margin: auto;
+}
+.articleimage {
+    max-width: 50%;
+    align-items: center;
+    margin: auto;
+    display: block;
 }
 .flex-container {
     display: flex;
@@ -143,7 +155,13 @@ transform: scale(1.2);
     }
     .intro {
         font-size: 12px;
-        
+        width: 90%;
+    }
+    .text {
+        width: 90%;
+    }
+    .articleimage {
+        max-width: 90%;
     }
 }
 h2 { 
