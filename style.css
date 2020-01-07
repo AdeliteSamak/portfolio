@@ -94,6 +94,27 @@ transform: scale(1.2);
     margin-left: 50px;
     margin-right: 50px;
 }
+.nadpis {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+.podnadpis {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 25px;
+    color: white;  
+}
+.text {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    width: 50%;
+    
+}
 .flex-container {
     display: flex;
     align-items: center;
