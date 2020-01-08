@@ -246,3 +246,208 @@ h2 {
 .footer a:hover {
     transform: translateY(-10px);
 }
+#image {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    margin-bottom: 25px;
+
+}
+
+ol {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+.corgi {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    list-style: none;
+    border: solid 5px;
+    border-color: lightpink;
+    margin: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: lightpink;
+
+
+}
+
+li:hover {
+    color: dimgray;
+}
+
+.mark {
+    background: lightpink;
+    color: white;
+
+}
+
+#image.rotatesc {
+    animation: one 2s linear both infinite;
+}
+
+#image.flip {
+    animation: two 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate infinite;
+}
+
+#image.flash {
+    animation: three 1s infinite;
+}
+
+#image.skew {
+    animation: four 1s infinite;
+}
+
+#image.translate {
+    animation: five 2s alternate infinite;
+}
+
+#image.pulse {
+    animation: six 2s linear infinite;
+}
+
+#image.pendulum {
+    animation: seven 3s ease-in infinite;
+}
+
+#image.jump {
+    animation: eight 0.5s cubic-bezier(0.125, 0.230, 0.225, 0.470) alternate infinite;
+}
+
+#image.square {
+    animation: nine 4s ease-out infinite;
+}
+
+#image.fade {
+    animation: ten 8s linear infinite;
+}
+
+@keyframes one {
+    0% {
+        transform: scale(1) rotateZ(0);
+    }
+
+    50% {
+        transform: scale(1.5) rotateZ(-180deg);
+    }
+
+    100% {
+        transform: scale(1) rotateZ(-360deg);
+    }
+}
+
+@keyframes two {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(-180deg);
+    }
+}
+
+@keyframes three {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes four {
+    25% {
+        transform: skew(-10deg, -10deg);
+    }
+
+    50% {
+        transform: skew(0deg, 0deg);
+    }
+
+    75% {
+        transform: skew(10deg, 10deg);
+    }
+
+    100% {
+        transform: skew(0deg, 0deg);
+    }
+}
+
+@keyframes five {
+    50% {
+        transform: translateX(100px);
+    }
+}
+
+@keyframes six {
+    50% {
+        transform: scale(1.10);
+        opacity: 0;
+    }
+}
+
+@keyframes seven {
+    25% {
+        transform: rotate(25deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-25deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes eight {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-80px);
+    }
+}
+
+@keyframes nine {
+    25% {
+        transform: translate(-20%, 0);
+    }
+
+    50% {
+        transform: translate(-20%, -20%);
+    }
+
+    75% {
+        transform: translate(0, -20%);
+    }
+
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes ten {
+    50% {
+        transform: rotate(-720deg);
+        opacity: 0;
+    }
+}
+.draw {
+    fill: white !important;
+}
+.line {
+    fill: transparent;
+}
