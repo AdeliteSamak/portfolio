@@ -72,10 +72,10 @@ function drawThis(line, i) {
 }
 function myFunction(e) {
     document.body.classList.toggle("dark-mode");
-    if (e.target.innerText == "Dark mode") {
-        e.target.innerText = "Light mode"
+    if (e.target.innerText == "Dark") {
+        e.target.innerText = "Light"
     }
     else {
-        e.target.innerText = "Dark mode"
+        e.target.innerText = "Dark"
     }
  }
