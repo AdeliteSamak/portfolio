@@ -20,13 +20,12 @@ background: linear-gradient(90deg, rgba(214,107,147,1) 0%, rgba(255,172,131,1) 1
 .modebutton {
     background-color: #49384a;
     color: white;
-    padding: 10px 10px;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     font-family: Montserrat, sans-serif;
     font-size: 18px;
-    margin: auto;
     transition-duration: 0.4s;
     cursor: pointer;
     border: 2px solid #49384a;
@@ -40,8 +39,7 @@ header {
     padding:0 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
     top: 0;
     height: 80px;
 }
