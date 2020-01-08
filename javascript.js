@@ -70,7 +70,12 @@ function drawThis(line, i) {
         line.classList.add("draw");
     }, i * 1000);
 }
-function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
+function myFunction(e) {
+    document.body.classList.toggle("dark-mode");
+    if (e.target.value == "Dark mode") {
+        e.target.value = "Light mode"
+    }
+    else {
+        e.target.value = "Dark mode"
+    }
  }
