@@ -9,7 +9,26 @@ body {
 background: linear-gradient(90deg, rgba(214,107,147,1) 0%, rgba(255,172,131,1) 100%);
     padding: 60px 0 0 0;
 }
-
+.dark-mode {
+    background: rgb(22,16,18);
+    background: linear-gradient(90deg, rgba(22,16,18,1) 0%, rgba(81,66,82,1) 100%);
+}
+.modebutton {
+    background-color: #49384a;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 2px solid #49384a;
+    border-radius: 12px;
+    user-select: none;
+}
 header {
     position: fixed;
     background: none;
